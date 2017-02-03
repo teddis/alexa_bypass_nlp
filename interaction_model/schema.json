@@ -1,0 +1,17 @@
+{
+  "intents": [
+    {
+      "intent": "catchAllIntent",
+      "slots": [
+        {
+          "name": "catch",
+          "type": "CatchAll"
+        }
+      ]
+    },
+    {
+      "intent": "errorIntent",
+      "slots": []
+    }
+  ]
+}
