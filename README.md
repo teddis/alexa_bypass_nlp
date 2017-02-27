@@ -24,7 +24,7 @@ This assumes you have an existing Alexa account, are logged in.
 4. Set up **Configuration**.
     - Set Service Endpoint Type to HTTPS since this example requires you host the skill yourself (Heroku, etc.)
     - Set to your location (North America or Europe).
-    - Set your server's endpoint URL. Most likely you'll want to point to your local PC/Mac so you'll need to find a tunnel that routes webhook requests to your local machine. I use [ngrok](https://ngrok.com/) which has been terrific for me. If you deploy to a cloud, you might use Heroku as `https://<appname>.herokuapp.com`.
+    - Set your server's endpoint URL. Most likely you'll want to point to your local PC/Mac so you'll need to find a tunnel that routes webhook requests to your local machine. I use [ngrok](https://ngrok.com/) which has been terrific for me. If you deploy to a cloud, you might use Heroku as `https://<appname>.herokuapp.com/alexa/copycat`.
     - Set Account Linking to `No`. Click Save.
 5. Set up **SSL Certificate**.
     - Set Certificate for NA Endpoint to appropriate option. If using Heroku, just set the middle option `My development endpoint is a sub-domain...`. Click Save.
